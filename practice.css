@@ -1,0 +1,109 @@
+body{
+    background-color: blue;
+    overflow: hidden;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Middlepart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 10cm;
+    width: 13cm;
+    border: 2px solid black;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    margin: auto;
+  
+    font-family: 'Pacifico', cursive;
+    color: #4169e1;
+}
+
+.image-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.image-container img {
+    width: 50%;
+    height: auto;
+    max-height: 4cm;
+}
+
+.cake-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.bday_messege h1 {
+    font-family: 'Pacifico', cursive;
+    color: #4169e1;
+}
+
+.cake-container img {
+    width: 50%;
+    height: auto;
+    max-height: 4cm;
+}
+
+audio{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.bday_messege{
+    position: fixed;
+    top: 2.0cm;
+    left: 0.5cm;
+    border: 2px solid black;
+    background-color: white;
+    max-width: 12cm;
+    max-height: 15cm; 
+    font-size: small;
+    overflow-y: scroll; 
+}
+
+.bday_messege p{
+    margin-left: 3px;
+}
+
+.birthday-image{
+    position: fixed;
+    top: 12cm;
+    left: 34%;
+    bottom: 5cm;
+    max-height: 5cm;
+    max-width: 5cm;
+    align-content: center;
+}
+
+.together{
+    position: fixed;
+    top: 2cm;
+    left: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1px;
+    border: 2px solid black;
+    background-color: white;
+    padding: 1px;
+    max-height: 15cm;
+    overflow-y: auto;
+    max-width: 20cm; 
+}
+
+.together img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    max-width: 5cm;
+    max-height: 5cm;
+}
